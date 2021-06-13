@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "com.hashir.flightreservation.itinerary.dirpath",
+    "type": "java.lang.String",
+    "description": "A description for 'com.hashir.flightreservation.itinerary.dirpath'"
+  },
+  {
+    "name": "com.hashir.flightreservation.itinerary.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'com.hashir.flightreservation.itinerary.email.subject'"
+  },
+  {
+    "name": "com.hashir.flightreservation.itinerary.email.body",
+    "type": "java.lang.String",
+    "description": "A description for 'com.hashir.flightreservation.itinerary.email.body'"
+  }
+]}

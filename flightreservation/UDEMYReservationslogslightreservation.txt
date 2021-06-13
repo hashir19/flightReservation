@@ -1,0 +1,37 @@
+2021-01-24 01:33:11.689  INFO 17052 --- [main] c.h.f.FlightreservationApplication       : Starting FlightreservationApplication using Java 1.8.0_271 on LAPTOP-F9BSE6QR with PID 17052 (D:\UDEMY\Projects\flightreservation\target\classes started by hashi in D:\UDEMY\Projects\flightreservation)
+2021-01-24 01:33:11.692  INFO 17052 --- [main] c.h.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2021-01-24 01:33:12.327  INFO 17052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-24 01:33:12.390  INFO 17052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2021-01-24 01:33:12.903  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-24 01:33:12.916  INFO 17052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-24 01:33:12.916  INFO 17052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 01:33:13.151  INFO 17052 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-24 01:33:13.156  INFO 17052 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2021-01-24 01:33:13.156  INFO 17052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1425 ms
+2021-01-24 01:33:13.315  INFO 17052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-24 01:33:13.992  INFO 17052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-24 01:33:14.039  INFO 17052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-24 01:33:14.102  INFO 17052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-24 01:33:14.270  INFO 17052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-24 01:33:14.390  INFO 17052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-24 01:33:15.090  INFO 17052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-24 01:33:15.105  INFO 17052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 01:33:15.851  WARN 17052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-24 01:33:15.940  INFO 17052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 01:33:16.035  INFO 17052 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2021-01-24 01:33:16.190  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2021-01-24 01:33:16.199  INFO 17052 --- [main] c.h.f.FlightreservationApplication       : Started FlightreservationApplication in 4.927 seconds (JVM running for 5.608)
+2021-01-24 01:33:25.422  INFO 17052 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-24 01:33:25.423  INFO 17052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-24 01:33:25.427  INFO 17052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-24 01:33:25.516  INFO 17052 --- [http-nio-8080-exec-2] c.h.f.controllers.UserController         : Inside login() and the email is :sprinhas@gmail.com
+2021-01-24 01:33:39.717  INFO 17052 --- [http-nio-8080-exec-1] c.h.f.controllers.UserController         : Inside login() and the email is :sprinhas@gmail.com
+2021-01-24 01:33:47.040  INFO 17052 --- [http-nio-8080-exec-3] c.h.f.controllers.FlightController       : Inside findFlights() From:AUSTo:NYCDeparture Date:Sat Feb 06 00:00:00 IST 2021
+2021-01-24 01:33:47.056  INFO 17052 --- [http-nio-8080-exec-3] c.h.f.controllers.FlightController       : Flights found are :[Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2021-02-06 00:00:00.0, estimatedDepartureTime=2021-02-06 07:14:07.0], Flight [flightNumber=SW2, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2021-02-06 00:00:00.0, estimatedDepartureTime=2021-02-06 08:14:07.0]]
+2021-01-24 01:33:48.897  INFO 17052 --- [http-nio-8080-exec-4] c.h.f.controllers.ReservationController  : Inside showCompleteReservation() invoked by Flight ID: 8
+2021-01-24 01:33:48.944  INFO 17052 --- [http-nio-8080-exec-4] c.h.f.controllers.ReservationController  : Flight is :Flight [flightNumber=SW2, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2021-02-06 00:00:00.0, estimatedDepartureTime=2021-02-06 08:14:07.0]
+2021-01-24 01:38:50.439  INFO 17052 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-24 01:38:50.564  INFO 17052 --- [RMI TCP Connection(15)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 01:38:50.567  INFO 17052 --- [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 01:38:50.570  INFO 17052 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-24 01:38:50.579  INFO 17052 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
